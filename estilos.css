@@ -1,0 +1,13 @@
+.texto-menor {
+  font-size: 13px;
+}
+
+.divs-facilidades {
+  width: 325px;
+}
+
+@media screen and (min-width: 1400px) {
+  .largura-xxl-50 {
+    max-width: 40%;
+  }
+}

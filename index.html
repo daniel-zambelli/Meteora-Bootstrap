@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meteora - Bootstrap</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -336,7 +341,7 @@
               bulk of the card's content.
             </p>
             <p>R$ 30,00</p>
-            <a href="#" class="btn btn-primary">Ver mais</a>
+            <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
       </div>
@@ -364,7 +369,7 @@
               bulk of the card's content.
             </p>
             <p>R$ 30,00</p>
-            <a href="#" class="btn btn-primary">Ver mais</a>
+            <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
       </div>
@@ -392,7 +397,7 @@
               bulk of the card's content.
             </p>
             <p>R$ 30,00</p>
-            <a href="#" class="btn btn-primary">Ver mais</a>
+            <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
       </div>
@@ -420,7 +425,7 @@
               bulk of the card's content.
             </p>
             <p>R$ 30,00</p>
-            <a href="#" class="btn btn-primary">Ver mais</a>
+            <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
       </div>
@@ -448,7 +453,7 @@
               bulk of the card's content.
             </p>
             <p>R$ 30,00</p>
-            <a href="#" class="btn btn-primary">Ver mais</a>
+            <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
       </div>
@@ -476,31 +481,76 @@
               bulk of the card's content.
             </p>
             <p>R$ 30,00</p>
-            <a href="#" class="btn btn-primary">Ver mais</a>
+            <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
       </div>
     </div>
 
     <!-- SEÇÃO FACILIDADES-->
-    <section>
-      <h2>Conheça todas as nossas facilidades</h2>
-      <div>
-        <div></div>
-        <div>PAGUE PELO PIX</div>
-        <div>Ganhe 5% OFF em pagamentos via PIX</div>
-      </div>
-      <div>
-        <div></div>
-        <div>TROCA GRÁTIS</div>
-        <div>Fique livre para trocar em até 30 dias</div>
-      </div>
-      <div>
-        <div></div>
-        <div>SUSTENTABILIDADE</div>
-        <div>Moda responsável, que respeita o meio-ambiente</div>
+    <section class="pb-4">
+      <h2 class="text-center mb-4">Conheça todas as nossas facilidades</h2>
+
+      <div
+        class="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-3 px-3"
+      >
+        <div class="divs-facilidades d-flex align-items-center">
+          <div><i class="bi bi-x-diamond fs-1"></i></div>
+          <div>
+            <div class="ms-3 mb-1">PAGUE PELO PIX</div>
+            <div class="texto-menor ms-3">
+              Ganhe 5% OFF em pagamentos via PIX
+            </div>
+          </div>
+        </div>
+        <div class="divs-facilidades d-flex align-items-center">
+          <div><i class="bi bi-arrow-repeat fs-1"></i></div>
+          <div>
+            <div class="ms-3 mb-1">TROCA GRÁTIS</div>
+            <div class="texto-menor ms-3">
+              Fique livre para trocar em até 30 dias
+            </div>
+          </div>
+        </div>
+        <div class="divs-facilidades d-flex align-items-center">
+          <div><i class="bi bi-flower1 fs-1"></i></div>
+          <div>
+            <div class="ms-3 mb-1">SUSTENTABILIDADE</div>
+            <div class="texto-menor ms-3">
+              Moda responsável, que respeita o meio-ambiente
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+
+    <!-- SEÇÃO FORMULÁRIO -->
+    <form
+      class="border border-secondary m-auto p-3 text-center w-75 largura-xxl-50"
+    >
+      <h5 class="lh-sm">
+        Quer receber nossas novidades, promoções exclusivas e 10% OFF na
+        primeira compra? Cadastre-se!
+      </h5>
+      <div class="input-group my-3">
+        <input
+          class="form-control border-secondary rounded-0"
+          type="email"
+          placeholder="Digite seu e-mail"
+          aria-label="Digite seu e-mail"
+          aria-describedby="button-addon2"
+        />
+        <button type="button" id="button-addon2">Enviar</button>
+      </div>
+    </form>
+
+    <!-- SEÇÃO FOOTER-->
+    <footer class="text-center">
+      <p class="p-3">
+        2023 <i class="bi bi-c-circle"></i> Desenvolvido por DMZ. Projeto sem
+        fins comerciais.
+      </p>
+    </footer>
 
     <!-- JAVASCRIPT BOOTSTRAP-->
     <script
