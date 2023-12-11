@@ -6,6 +6,18 @@
   width: 325px;
 }
 
+.text-color-lime {
+  color: #daff01;
+}
+
+.botao-lilas {
+  background-color: #9353ff;
+}
+
+.botao-lilas-hover:hover {
+  background-color: #551db687;
+}
+
 @media screen and (min-width: 1400px) {
   .largura-xxl-50 {
     max-width: 40%;
