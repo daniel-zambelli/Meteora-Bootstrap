@@ -18,8 +18,18 @@
   background-color: #551db687;
 }
 
+.posicao {
+  top: 40%;
+}
+
 @media screen and (min-width: 1400px) {
   .largura-xxl-50 {
     max-width: 40%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .posicao {
+    top: 50%;
   }
 }
